@@ -1,0 +1,71 @@
+html,body{
+    background-image: url('stol.jpg');
+    background-position: center top;
+    background-size: 100% auto;
+    color: rgb(200, 200, 200);
+    font-size: larger;
+    font-weight: bold;
+}
+
+main{
+    min-width: 50%;
+    max-width: 100%;
+    text-align: center;
+    background-color: darkgreen;
+    height:100%;
+    padding-top: 5%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%,-50%);
+    border: 1rem solid rgb(3, 72, 3);
+    box-shadow: 0px 20px 20px 20px black;
+    display: grid;
+    overflow: auto;
+}
+
+
+
+#karty_gracza img, #karty_komputera img{
+    width: 8rem;
+    height: 11.86rem;
+    float: left;
+}
+
+#zwyciezca{
+    width: 100%;
+    clear: both;
+    background-color: darkred;
+    text-align: center;
+    /* padding: 3% 0%; */
+    padding-top: -3%;
+    margin-bottom: 3%;
+}
+
+#karty_komputera, #karty_gracza{
+    width: 100%;
+}
+
+
+
+input{
+    background-color: darkolivegreen;
+    min-width: 15rem;
+    height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+input:hover{
+    background-color: darkseagreen;
+    color: black;
+}
+
+input:disabled{
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+

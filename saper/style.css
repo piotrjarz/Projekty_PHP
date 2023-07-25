@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* height: 100%; */
+    background-color: black;
+    color: whitesmoke;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: #d8d3cd;
+    border:none;
+    border: 1px solid #c2bdb7;
+    font-size: 1.1em;
+}
+
+.puste{
+    background-color: darkgray;
+    border: 1px solid darkgray;
+}
+
+
+/* #saper{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+} */
+
+
+
+.bomba{
+    color: red;
+}
+
+.flaga{
+    color: blue;
+}
+
+/* #reset{
+    background-color: darkgray;
+}
+
+#reset:hover{
+    border: 5px solid gray;
+} */
+
+.przycisk{
+    background-color: darkgray;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.przycisk:hover{
+    border: 5px solid gray;
+}
+
+h1{
+    color: white;
+}
